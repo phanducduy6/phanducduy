@@ -1,1 +1,65 @@
-# phanducduy
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chào mừng!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f5f5f5;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 36px;
+      color: #333;
+    }
+    #welcome {
+      cursor: pointer;
+      padding: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 20px;
+      transition: background-color 0.3s;
+    }
+    #welcome:hover {
+      background-color: #45a049;
+    }
+    #socialLinks {
+      display: none;
+      margin-top: 30px;
+    }
+    a {
+      display: block;
+      margin: 10px;
+      text-decoration: none;
+      color: #1a0dab;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>phan đức duy xin chào tất cả các bạn !</h1>
+  <button id="welcome">nhấn vào đây để được duy yêu thương nào </button>
+
+  <div id="socialLinks">
+    <a href="https://facebook.com/phanducduy206" target="_blank">Facebook</a>
+    <a href="https://facebook.com/phanducduy26" target="_blank">Facebook</a>
+    <a href="https://instagram.com/phan.duc.duy.6" target="_blank">Instagram</a>
+   <a href="https://facebook.com/phan.duc.duy.6" target="_blank">Facebook</a>
+    <!-- Thêm bất kỳ mạng xã hội nào bạn muốn -->
+  </div>
+
+  <script>
+    document.getElementById('welcome').addEventListener('click', function () {
+      document.getElementById('socialLinks').style.display = 'block';
+    });
+  </script>
+
+</body>
+</html><p style="font-size: 20px; color: #2e8b57; font-weight: bold;">phan đức duy Cảm ơn bạn đã ghé thăm trang của tôi! 💖</p>
+
